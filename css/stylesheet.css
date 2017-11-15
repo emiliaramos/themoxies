@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {background-color: #ffffff;
+} 
+
+/*keep color scheme simple*/
+.topnav {
+ display: flex; 
+    justify-content:center;
+    width: 100%;
+    overflow: hidden;
+font-family: 'Work Sans', sans-serif;
+    margin:auto;
+    text-align: center;
+    }
+
+.topnav a {
+    margin:auto; 
+  float: left;
+  display: block;
+  color: #000000 ;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  font-size: 14px;}
+
+.topnav active {
+    background-color: 	#ffffff;
+    color: #ffffff;}
+
+.title { text-align: center;
+font-family: 'Homemade Apple', cursive;
+font-size: 36px;
+color: 	#000000 ;}
+ 
+/*Control sizing with font-size*/
+
+.fling-minislide {width:350px; height:300px; 
+overflow:hidden; 
+margin:auto;
+position:relative; }
+.fling-minislide img{ position:absolute; 
+animation:fling-minislide 20s infinite; 
+opacity:0; 
+width: 100%; 
+height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+/*Change slideshow timeline with animation delay*/
+
+
+.circle1
+ { text-align: center;
+font-size: 16px;
+color: 	black;
+    background-color: white;
+;
+/*change this and the width for the size of your initial circle*/
+width: 400px;
+vertical-align: middle;
+/*make it pretty*/
+background: white;
+margin: auto;
+/*change this for font-size and font-family*/}
+
+.circle1 h2 
+{ text-align: center;
+font-family: 'Homemade Apple', cursive;
+font-size: 28px;
+color: 	black;}
+
+.circle1  p
+{ text-align: center;
+font-family: sans-serif;}
+
+.circle2
+ { text-align: center;
+font-size: 16px;
+color: 	black;
+    background-color: white;
+height: 400px;
+/*change this and the width for the size of your initial circle*/
+width: 400px;
+vertical-align: middle;
+/*make it pretty*/
+background: white;
+font-family: 'Homemade Apple', cursive;
+     margin: auto;
+ }
+ 
+ .circle2 p
+ {text-align: center;
+ font-family: sans-serif;}
+.video
+ { text-align: center;
+font-size: 16px;
+color: 	black;
+    background-color: white;
+/*change this and the width for the size of your initial circle*/
+
+vertical-align: middle;
+/*make it pretty*/
+background: white;
+font-family: 'Homemade Apple', cursive;
+     margin: auto;
+ }
+ 
+ul
+{list-style:none;}
+
+.fressia
+{color:#F6C324;}
