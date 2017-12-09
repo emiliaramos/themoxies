@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-
-body {background-color: #ffffff;
-} 
+@import url('https://fonts.googleapis.com/css?family=Judson:400i,700');
 
 /*keep color scheme simple*/
 .topnav {
@@ -23,20 +21,25 @@ font-family: 'Work Sans', sans-serif;
   text-align: center;
   padding: 14px 8px;
   text-decoration: none;
-  font-size: 14px;}
+  font-size: 14px;
+    font-weight: bold;
+}
 
 .topnav active {
     background-color: 	#ffffff;
     color: #ffffff;}
 
 .title { text-align: center;
-font-family: 'Homemade Apple', cursive;
-font-size: 36px;
-color: 	#000000 ;}
+font-family: 'Judson', cursive;
+font-size: 56px;
+color: 	#000000;
+font-weight: bold;
+
+}
  
 /*Control sizing with font-size*/
 
-.fling-minislide {width:350px; height:300px; 
+.fling-minislide {width:1000px; height:750px; 
 overflow:hidden; 
 margin:auto;
 position:relative; }
@@ -57,12 +60,11 @@ height: auto;}
 
 .circle1
  { text-align: center;
-font-size: 16px;
 color: 	black;
     background-color: white;
-;
+height: 900px;
 /*change this and the width for the size of your initial circle*/
-width: 400px;
+width: 900px;
 vertical-align: middle;
 /*make it pretty*/
 background: white;
@@ -71,26 +73,28 @@ margin: auto;
 
 .circle1 h2 
 { text-align: center;
-font-family: 'Homemade Apple', cursive;
-font-size: 28px;
+font-family: 'Judson', cursive;
+font-size: 24px;
 color: 	black;}
 
 .circle1  p
 { text-align: center;
-font-family: sans-serif;}
+font-family: sans-serif;
+    font-size: 16px;
+}
 
 .circle2
  { text-align: center;
 font-size: 16px;
 color: 	black;
     background-color: white;
-height: 400px;
+height: 900px;
 /*change this and the width for the size of your initial circle*/
-width: 400px;
+width: 900px;
 vertical-align: middle;
 /*make it pretty*/
 background: white;
-font-family: 'Homemade Apple', cursive;
+font-family: 'Judson', cursive;
      margin: auto;
  }
  
@@ -107,7 +111,7 @@ color: 	black;
 vertical-align: middle;
 /*make it pretty*/
 background: white;
-font-family: 'Homemade Apple', cursive;
+font-family: 'Judson', cursive;
      margin: auto;
  }
  
@@ -116,3 +120,40 @@ ul
 
 .fressia
 {color:#F6C324;}
+
+
+.intro 
+{ text-align: center;
+font-family: 'Judson', cursive;
+font-size: 32px;
+color: 	black;
+font-weight: bold;
+margin: auto;
+width:40%;
+}
+
+.intro1
+{
+ text-align: center;
+ font-family: 'Judson', cursive;
+    margin:auto;
+    width: 40%;
+    font-size: 16px;
+}
+
+.homesect{display:flex; padding-top:40px;justify-content: center; flex-flow: row nowrap;}
+.homesect img{width:65%}
+.homesect p{padding-top:30px;}
+.circle1 {text-align: center;padding: 50px 30px 50px 80px;}
+.circle2 {text-align: center;padding: 50px 30px 50px 80px;}
+
+.date
+{font-size: 46px;
+    font-family: 'Judson', cursive;
+    font-weight: bold;
+    color:black;
+    width:90%;
+    margin: auto;
+    
+}
+
